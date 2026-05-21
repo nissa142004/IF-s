@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kngu Flower Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-offer">
+    <p>All featured products are 50% off. Shop now</p>
+    <button type="button" aria-label="Close offer">&times;</button>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#" aria-label="Kngu home">
+        <span class="logo-mark" aria-hidden="true">&#10042;</span>
+        <span>Kngu.</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">Pages</a>
+        <a href="#">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <label class="search">
+          <span class="visually-hidden">Search our store</span>
+          <input type="search" placeholder="Search our store">
+        </label>
+        <button type="button" aria-label="Search">&#8981;</button>
+        <button type="button" aria-label="Account">&#9817;</button>
+        <button class="cart-button" type="button" aria-label="Cart with 3 items">
+          &#9827;
+          <span>3</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Mother's Day flowers">
+      <button class="hero-arrow left" type="button" aria-label="Previous slide">&lsaquo;</button>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">20% Off For<br>New Members</p>
+          <h1>Happy Mother's Day!</h1>
+          <p>Bouquets your mom will love!</p>
+          <a class="button" href="#">Start Shopping</a>
+        </div>
+      </div>
+      <button class="hero-arrow right" type="button" aria-label="Next slide">&rsaquo;</button>
+    </section>
+
+    <section class="features" aria-label="Store benefits">
+      <div class="container feature-grid">
+        <article class="feature">
+          <span class="feature-icon red">FD</span>
+          <div>
+            <h3>Free Delivery</h3>
+            <p>Free shipping on all orders over $120</p>
+          </div>
+        </article>
+        <article class="feature">
+          <span class="feature-icon teal">OO</span>
+          <div>
+            <h3>Online Ordering</h3>
+            <p>Place your order online in just a few minutes</p>
+          </div>
+        </article>
+        <article class="feature">
+          <span class="feature-icon purple">FR</span>
+          <div>
+            <h3>Freshness</h3>
+            <p>Fresh flowers are prepared for every order</p>
+          </div>
+        </article>
+        <article class="feature">
+          <span class="feature-icon green">MA</span>
+          <div>
+            <h3>Made by Artists</h3>
+            <p>Every bouquet is arranged by skilled florists</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section products-section">
+      <div class="section-heading">
+        <h2>New Products</h2>
+        <p>Fresh seasonal flowers, hand-arranged for gifts, celebrations, and everyday moments.</p>
+      </div>
+
+      <div class="container product-grid compact">
+        <article class="product-card">
+          <span class="badge sale">Sold Out</span>
+          <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=480&q=80" alt="Spring Snowflake bouquet in a white vase">
+          <div class="rating" aria-label="4 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <h3>Spring Snowflake</h3>
+          <p><strong>$19.00</strong> <s>$29.00</s></p>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=480&q=80" alt="Soft pink rose in a small vase">
+          <div class="rating" aria-label="4 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <h3>Rock Soapwort</h3>
+          <p><strong>$50.00</strong></p>
+        </article>
+        <article class="product-card">
+          <span class="badge dark">-35%</span>
+          <div class="timer">
+            <span><b>00</b>Days</span>
+            <span><b>00</b>Hour</span>
+            <span><b>00</b>min</span>
+            <span><b>00</b>Sec</span>
+          </div>
+          <img src="https://images.unsplash.com/photo-1487070183336-b863922373d4?auto=format&fit=crop&w=480&q=80" alt="Pink flowers in a white pitcher">
+          <div class="rating" aria-label="4 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <h3>Scarlet Sage</h3>
+          <p><strong>$39.00</strong> <s>$60.00</s></p>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1589123053646-4e8c6a51f250?auto=format&fit=crop&w=480&q=80" alt="Purple tulips in a yellow watering can">
+          <div class="rating" aria-label="4 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <h3>Foxglove Flower</h3>
+          <p><strong>$79.00</strong></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container promo">
+      <img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=900&q=80" alt="Fresh tulips arranged on a table">
+      <div class="promo-copy">
+        <h2>Surprise your Valentine with a bouquet made for her.</h2>
+        <p>Choose a thoughtful arrangement for birthdays, anniversaries, thank-you gifts, or a simple surprise.</p>
+        <ul>
+          <li>Fresh stems selected by our florist team.</li>
+          <li>Gift wrapping available for every order.</li>
+          <li>Same-day delivery on selected bouquets.</li>
+        </ul>
+        <a class="button" href="#">More Details</a>
+      </div>
+    </section>
+
+    <section class="section products-section">
+      <div class="section-heading">
+        <h2>Featured Items</h2>
+        <p>Customer favorites selected for their color, freshness, and long-lasting arrangements.</p>
+      </div>
+      <div class="tabs" role="list" aria-label="Product categories">
+        <a href="#" class="active">New</a>
+        <a href="#">Featured</a>
+        <a href="#">Best Sellers</a>
+      </div>
+
+      <div class="container product-grid">
+        <article class="product-card">
+          <span class="badge dark">-34%</span>
+          <img src="https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=480&q=80" alt="Single pink tropical flower">
+          <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <h3>Pink Majesty Palm</h3>
+          <p><strong>$19.00</strong> <s>$29.00</s></p>
+        </article>
+        <article class="product-card">
+          <span class="badge dark">-10%</span>
+          <img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=480&q=80" alt="Small vase of pink roses">
+          <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <h3>Wild Roses</h3>
+          <p><strong>$19.00</strong> <s>$21.00</s></p>
+        </article>
+        <article class="product-card">
+          <span class="badge sale">Sold Out</span>
+          <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=480&q=80" alt="Spring Snowflake bouquet">
+          <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <h3>Spring Snowflake</h3>
+          <p><strong>$19.00</strong> <s>$29.00</s></p>
+        </article>
+        <article class="product-card">
+          <span class="badge dark">-27%</span>
+          <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=480&q=80" alt="Pink rose in a pot">
+          <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <h3>Rock Soapwort</h3>
+          <p><strong>$55.00</strong> <s>$75.00</s></p>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1533616688419-b7a585564566?auto=format&fit=crop&w=480&q=80" alt="Pink roses in a white vase">
+          <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <h3>Sweet Alyssum</h3>
+          <p><strong>$50.00</strong></p>
+        </article>
+        <article class="product-card">
+          <span class="badge dark">-18%</span>
+          <img src="https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=480&q=80" alt="Single purple flower on a stem">
+          <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <h3>Summer Savory</h3>
+          <p><strong>$40.00</strong> <s>$85.00</s></p>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=480&q=80" alt="Pink flower in white vase">
+          <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <h3>Rock Soapwort</h3>
+          <p><strong>$50.00</strong></p>
+        </article>
+        <article class="product-card">
+          <span class="badge sale">Sold Out</span>
+          <img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=480&q=80" alt="Purple tulips with green leaves">
+          <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <h3>Majesty Palm</h3>
+          <p><strong>$19.00</strong> <s>$29.00</s></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonial" aria-label="Customer testimonial">
+      <button type="button" aria-label="Previous testimonial">&lsaquo;</button>
+      <div class="testimonial-content">
+        <blockquote>The bouquet arrived on time and looked even better than the photo. The flowers were fresh, carefully packed, and made the whole room feel brighter.</blockquote>
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=180&q=80" alt="Torvi, chief operating officer">
+        <h3>Torvi / COO</h3>
+      </div>
+      <button type="button" aria-label="Next testimonial">&rsaquo;</button>
+    </section>
+
+    <section class="section experts">
+      <div class="section-heading">
+        <h2>Flower Experts</h2>
+        <p>Meet the people who choose, style, and care for each arrangement before it leaves our shop.</p>
+      </div>
+      <div class="container expert-grid">
+        <article>
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=420&q=80" alt="Marcos Alonso">
+          <h3>Marcos Alonso</h3>
+          <p>Biologist</p>
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=420&q=80" alt="Sarah Parker">
+          <h3>Sarah Parker</h3>
+          <p>Photographer</p>
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=420&q=80" alt="Tori Grace">
+          <h3>Tori Grace</h3>
+          <p>Founder</p>
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=420&q=80" alt="Alana Gomez">
+          <h3>Alana Gomez</h3>
+          <p>Florist</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section blog">
+      <div class="section-heading">
+        <h2>From Our Blog</h2>
+        <p>Simple flower care tips, gift ideas, and behind-the-scenes notes from our florist team.</p>
+      </div>
+      <div class="container blog-grid">
+        <article>
+          <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=700&q=80" alt="White tulips">
+          <h3>Flower Beauty</h3>
+          <p class="meta">By Kngu Florists / August 12, 2022</p>
+          <p>Learn how to keep white tulips bright, upright, and fresh for longer after delivery.</p>
+          <div class="post-footer">
+            <a href="#">Continue Reading</a>
+            <span>&#9825; 0</span>
+          </div>
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=700&q=80" alt="Wedding bouquet">
+          <h3>Local Florists</h3>
+          <p class="meta">By Kngu Florists / August 12, 2022</p>
+          <p>See how local florists build natural arrangements with texture, color, and balance.</p>
+          <div class="post-footer">
+            <a href="#">Continue Reading</a>
+            <span>&#9825; 0</span>
+          </div>
+        </article>
+        <article>
+          <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=700&q=80" alt="Family giving flowers">
+          <h3>Flower Power</h3>
+          <p class="meta">By Kngu Florists / August 12, 2022</p>
+          <p>Find easy flower gift ideas for Mother's Day, birthdays, and family celebrations.</p>
+          <div class="post-footer">
+            <a href="#">Continue Reading</a>
+            <span>&#9825; 0</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container">
+        <h2>Join The Colorful Bunch!</h2>
+        <form>
+          <label for="email" class="visually-hidden">Email address</label>
+          <input id="email" type="email" placeholder="Your email address">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section class="footer-brand">
+        <a class="logo footer-logo" href="#">
+          <span class="logo-mark" aria-hidden="true">&#10042;</span>
+          <span>Kngu.</span>
+        </a>
+        <p>Beautiful flowers for birthdays, celebrations, sympathy gifts, and everyday surprises.</p>
+        <div class="social-links" aria-label="Social links">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Twitter">t</a>
+          <a href="#" aria-label="Google Plus">G+</a>
+          <a href="#" aria-label="YouTube">&#9654;</a>
+        </div>
+      </section>
+
+      <section>
+        <h3>Information</h3>
+        <a href="#">Search Terms</a>
+        <a href="#">Advanced Search</a>
+        <a href="#">Help & FAQs</a>
+        <a href="#">Store Location</a>
+        <a href="#">Orders & Returns</a>
+      </section>
+      <section>
+        <h3>My Account</h3>
+        <a href="#">Delivery</a>
+        <a href="#">Legal Notice</a>
+        <a href="#">Secure Payment</a>
+        <a href="#">Sitemap</a>
+        <a href="#">About Us</a>
+      </section>
+      <section>
+        <h3>Help</h3>
+        <a href="#">FAQs</a>
+        <a href="#">Pricing Plans</a>
+        <a href="#">Track Order</a>
+        <a href="#">Your Order</a>
+        <a href="#">Returns</a>
+      </section>
+      <section>
+        <h3>Customer Service</h3>
+        <a href="#">My Account</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Deliveries & Returns</a>
+        <a href="#">Gift Card</a>
+        <a href="#">Legal Notice</a>
+      </section>
+    </div>
+    <div class="container footer-bottom">
+      <p>Copyright 2026. All Rights Reserved</p>
+      <div class="payments" aria-label="Payment methods">
+        <span>Visa</span>
+        <span>Master</span>
+        <span>PayPal</span>
+        <span>Skrill</span>
+        <span>Maestro</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
